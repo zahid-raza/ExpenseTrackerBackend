@@ -1,17 +1,12 @@
-.env
-
-/node_modules
 # Node modules
-node_modules/
-backend/node_modules/
+/node_modules
 
 # Logs
 logs
 *.log
 npm-debug.log*
 
-# Build
-frontend/build/
+.env
 
 
 
