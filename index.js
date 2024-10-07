@@ -5,8 +5,6 @@ const connectDb = require("../backend/db/db");
 const userRouter = require("./router/userRouter");
 const expenseRouter = require("./router/expenseRouter");
 
-dotenv.config();
-
 const app = express();
 
 app.use(cors());
